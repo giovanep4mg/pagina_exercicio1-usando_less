@@ -1,0 +1,551 @@
+@cor-azul: blue;
+@cor-dourada: #dec129;
+@cor-vermelho: red;
+@cor-verde: rgb(0, 255, 85);
+@cor-divs: #efe22378;
+
+@tamanho-titulo:  30px;
+@tamanho-subtitulo: px25;
+@tamanho-texto:  20px;
+@largura: 1; // defini a largura (width) como 100%
+@margem: 10px;
+@borda: 1px solid black;
+
+@tamanho-titulo2:  25px;
+@tamanho-subtitulo2: 25px;
+@tamanho-texto2:  20px;
+@largura2: 0.5; 
+
+@tamanho-titulo3:  25px;
+@tamanho-subtitulo3: 25px;
+@tamanho-texto3:  20px;
+@largura3: 0.5; 
+    
+
+
+*{
+    margin: @margem;
+    padding: @margem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    width: percentage(@largura);
+    background-color: #efee;
+    display: contents;
+}
+img{
+    width: -webkit-fill-available;
+}
+body{
+    display: contents;
+}
+div{
+    display: contents;
+}
+.title{
+    font-size: @tamanho-titulo;
+    width: percentage(@largura);
+    color: @cor-azul;
+}
+
+.description{
+
+    border: @borda;
+
+    h2{
+        color: @cor-azul;
+        font-size: @tamanho-texto;
+    }
+    b{
+        color: @cor-vermelho;
+    }
+}
+.variaveis-description{
+
+    border: @borda;
+
+    h2{
+        color: @cor-azul;
+        font-size: @tamanho-texto;
+    }
+   
+    b{
+        color: @cor-vermelho;
+    }
+}
+
+.hierarquia-description{
+
+    border: @borda;
+
+    h2{
+        color: @cor-verde;
+        font-size: @tamanho-texto;
+    }
+
+    b{
+        color: @cor-vermelho;
+    }
+
+}
+
+.math-adicao-description {
+    border: @borda;
+    
+    h2{
+        color: @cor-dourada;
+        font-size: @tamanho-texto + 10px;
+    }
+    b{
+        color: @cor-vermelho;
+    }
+}
+
+.math-cores-description{
+    border: @borda;
+    
+    h2{
+        color: @cor-azul;
+        font-size: @tamanho-texto;
+    }
+    b{
+        color: @cor-vermelho;
+    }
+
+    .divs();
+}
+
+.divs(){
+
+    .div1{
+        background-color: @cor-divs;
+        display: flex;
+    }
+    .div2{
+        background-color: @cor-divs*1.0;
+        display: flex;
+    }
+    .div3{
+        background-color: @cor-divs*1.5;
+        display: flex;
+    }
+    .div4{
+        background-color: @cor-divs*2.0;
+        display: flex;
+    }
+    .div5{
+        background-color: @cor-divs*2.5;
+        display: flex;
+    }
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 1600px){
+    @tamanho-titulo1:  60px;
+    @tamanho-subtitulo1: 45px;
+    @tamanho-texto1:  40px;
+    @largura1: 1; 
+    
+    
+    
+    *{
+        margin: 2px;
+        padding: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    html {
+        
+        background-color: #efee;
+        display: contents;
+    }
+    img{
+        width: -webkit-fill-available;
+    }
+    /*
+    body{
+        display: contents;
+    }
+    div{
+        display: contents;
+    }
+    */
+    .title{
+        font-size: @tamanho-titulo1;
+        
+        color: @cor-azul;
+    }
+    
+    .description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto1;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    .variaveis-description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto1;
+        }
+       
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    
+    .hierarquia-description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-verde;
+            font-size: @tamanho-texto1;
+        }
+    
+        b{
+            color: @cor-vermelho;
+        }
+    
+    }
+    
+    .math-adicao-description {
+        border: @borda;
+        
+        h2{
+            color: @cor-dourada;
+            font-size: @tamanho-texto1 + 5px;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    
+    .math-cores-description{
+        border: @borda;
+        
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto1;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    
+        .divs();
+    }
+    
+    .divs(){
+    
+        .div1{
+            background-color: @cor-divs;
+            display: flex;
+        }
+        .div2{
+            background-color: @cor-divs*1.0;
+            display: flex;
+        }
+        .div3{
+            background-color: @cor-divs*1.5;
+            display: flex;
+        }
+        .div4{
+            background-color: @cor-divs*2.0;
+            display: flex;
+        }
+        .div5{
+            background-color: @cor-divs*2.5;
+            display: flex;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+    *{
+        margin: 0px;
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    *{
+        margin: 2px;
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    @tamanho-titulo2:  25px;
+    @tamanho-subtitulo2: 25px;
+    @tamanho-texto2:  20px;
+    @largura2: 0.5; 
+    
+    
+    
+    *{
+        margin: 2px;
+        padding: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    html {
+        
+        background-color: #efee;
+        display: contents;
+    }
+    img{
+        width: -webkit-fill-available;
+    }
+    /*
+    body{
+        display: contents;
+    }
+    div{
+        display: contents;
+    }
+    */
+    .title{
+        font-size: @tamanho-titulo2;
+        
+        color: @cor-azul;
+    }
+    
+    .description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto2;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    .variaveis-description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto2;
+        }
+       
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    
+    .hierarquia-description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-verde;
+            font-size: @tamanho-texto2;
+        }
+    
+        b{
+            color: @cor-vermelho;
+        }
+    
+    }
+    
+    .math-adicao-description {
+        border: @borda;
+        
+        h2{
+            color: @cor-dourada;
+            font-size: @tamanho-texto2 + 5px;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    
+    .math-cores-description{
+        border: @borda;
+        
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto2;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    
+        .divs();
+    }
+    
+    .divs(){
+    
+        .div1{
+            background-color: @cor-divs;
+            display: flex;
+        }
+        .div2{
+            background-color: @cor-divs*1.0;
+            display: flex;
+        }
+        .div3{
+            background-color: @cor-divs*1.5;
+            display: flex;
+        }
+        .div4{
+            background-color: @cor-divs*2.0;
+            display: flex;
+        }
+        .div5{
+            background-color: @cor-divs*2.5;
+            display: flex;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 200px) {
+    @tamanho-titulo3:  25px;
+    @tamanho-subtitulo3: 25px;
+    @tamanho-texto3:  20px;
+    @largura3: 0.5; 
+    
+    
+    
+    *{
+        margin: 2px;
+        padding: 1px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    html {
+        
+        background-color: #efee;
+        display: contents;
+    }
+    img{
+        width: -webkit-fill-available;
+    }
+    /*
+    body{
+        display: contents;
+    }
+    div{
+        display: contents;
+    }
+    */
+    .title{
+        font-size: @tamanho-titulo3;
+        
+        color: @cor-azul;
+    }
+    
+    .description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto3;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    .variaveis-description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto3;
+        }
+       
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    
+    .hierarquia-description{
+    
+        border: @borda;
+    
+        h2{
+            color: @cor-verde;
+            font-size: @tamanho-texto3;
+        }
+    
+        b{
+            color: @cor-vermelho;
+        }
+    
+    }
+    
+    .math-adicao-description {
+        border: @borda;
+        
+        h2{
+            color: @cor-dourada;
+            font-size: @tamanho-texto3 + 5px;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    }
+    
+    .math-cores-description{
+        border: @borda;
+        
+        h2{
+            color: @cor-azul;
+            font-size: @tamanho-texto3;
+        }
+        b{
+            color: @cor-vermelho;
+        }
+    
+        .divs();
+    }
+    
+    .divs(){
+    
+        .div1{
+            background-color: @cor-divs;
+            display: flex;
+        }
+        .div2{
+            background-color: @cor-divs*1.0;
+            display: flex;
+        }
+        .div3{
+            background-color: @cor-divs*1.5;
+            display: flex;
+        }
+        .div4{
+            background-color: @cor-divs*2.0;
+            display: flex;
+        }
+        .div5{
+            background-color: @cor-divs*2.5;
+            display: flex;
+        }   
+    }
+    
+}
+
+
+
+
+
+
+

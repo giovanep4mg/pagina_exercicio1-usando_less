@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <!--style-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--<script src="https://cdn.jsdelivr.net/npm/less" ></script>-->
+</head>
+<body>
+    <main class="toda-pagina">
+        <section class="secao">
+            <header>
+                <h1 class="title">Exercício 1</h1>
+            </header>
+            <section class="description">
+                <h2>
+                    Construir uma página que use o <b>Less</b>.<br>
+                    É obrigatório usar:<br>
+                    * Variáveis, funções, cálculos e hierarquia.<br>
+                </h2>
+            </section>
+            <section class="variaveis-description">
+                <h2>
+                    <p>
+                        Exemplo de como usar as variáveis no Less!<br>
+                        <br>
+                        Veja como é o código:<br>
+                        <div class="imagem">
+                            <img src="./imagens/variaveis-description.png" 
+                            alt="print da tela do VScode, mostrando o código, de como é feita a hierarquia">
+                        </div>
+                        <br>
+                        <b>@cor-azul:</b> essa é a variável que vai receber a cor <b>blue;</b> <br>
+                        <br>
+                        Aqui já é uma função do Less.<br>
+                        <b>@largura:</b> essa variável vai receber <b>1</b> <br>
+                        * mas na hora de passar para a tag, tem que usar assim:<br>
+                        <b>width: percentage(@largura);</b> <br>
+                        Por asssim você está passando a porcentagem, que será <b>100%</b> <br>
+                        <br>
+                    </p>
+                </h2>
+            </section>
+            <section class="hierarquia-description">
+                <h2>
+                    <p>
+                        Exemplo de como usar o Less com hierarquia!<br>
+                        Aqui temos um texto com uma cor e dentro dele outra cor.<br>
+                        Aqui está o <b>exemplo</b>, como fica na <b>página</b>.<br>
+                        Veja como é o código:<br>
+                        <div class="imagem">
+                            <img src="./imagens/hierarquia-description.png" 
+                            alt="print da tela do VScode, mostrando o código, de como é feita a hierarquia">
+                        </div>
+                    </p>
+                </h2>
+            </section>
+            <section class="math-adicao-description">
+                <h2>
+                    <p>
+                        Aqui vemos a função Math. <br>
+                        Usaremos a soma, que vai somar mais 10 pixes a mais,<br>
+                        no valor que estiver na variável <b>@tamanho-texto</b>.<br>
+                        <br>
+                        // essa seria a variável <br>
+                        <b>@tamanho-texto:  16px;</b> <br>
+                        que tem o valor de 16 pixes.<br>
+                        Veja como fica na hora de passar o código:<br>
+                        <div class="imagem">
+                            <img src="./imagens/funcao-description.png" 
+                            alt="print da tela do VScode, mostrando o código, de usar o Math para somar">
+                        </div>
+                        <br>
+                    </p>
+                </h2>
+            </section>
+            <section class="math-cores-description">
+                <h2>
+                    <p>
+                        Aqui vamos usar o Math com cores. <br>
+                        <br>
+                        A cor orginal é multiplicada isso causa uma diferença na tonalidade das cores.<br>
+                        Veja como exemplo as cores abaixo:<br>
+                    </p>
+                    <div class="div1">
+                        cor: # efe22378;
+                    </div>
+                    <div class="div2">
+                        cor: # efe22378 * 1.0; vai ficar -> efe223;
+                    </div>
+                    <div class="div3">
+                        cor: # efe22378 * 1.5; vai ficar -> ffff35;
+                    </div>
+                    <div class="div4">
+                        cor: # efe22378 * 2.0; vai ficar -> ffff46;
+                    </div>
+                    <div class="div5">
+                        cor: # efe22378 * 2.5; vai ficar -> ffff58;
+                    </div>
+                </h2>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

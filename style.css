@@ -1,0 +1,395 @@
+* {
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html {
+  width: 100%;
+  background-color: #efee;
+  display: contents;
+}
+img {
+  width: -webkit-fill-available;
+}
+body {
+  display: contents;
+}
+div {
+  display: contents;
+}
+.title {
+  font-size: 30px;
+  width: 100%;
+  color: blue;
+}
+.description {
+  border: 1px solid black;
+}
+.description h2 {
+  color: blue;
+  font-size: 20px;
+}
+.description b {
+  color: red;
+}
+.variaveis-description {
+  border: 1px solid black;
+}
+.variaveis-description h2 {
+  color: blue;
+  font-size: 20px;
+}
+.variaveis-description b {
+  color: red;
+}
+.hierarquia-description {
+  border: 1px solid black;
+}
+.hierarquia-description h2 {
+  color: #00ff55;
+  font-size: 20px;
+}
+.hierarquia-description b {
+  color: red;
+}
+.math-adicao-description {
+  border: 1px solid black;
+}
+.math-adicao-description h2 {
+  color: #dec129;
+  font-size: 30px;
+}
+.math-adicao-description b {
+  color: red;
+}
+.math-cores-description {
+  border: 1px solid black;
+}
+.math-cores-description h2 {
+  color: blue;
+  font-size: 20px;
+}
+.math-cores-description b {
+  color: red;
+}
+.math-cores-description .div1 {
+  background-color: #efe22378;
+  display: flex;
+}
+.math-cores-description .div2 {
+  background-color: #efe223;
+  display: flex;
+}
+.math-cores-description .div3 {
+  background-color: #ffff35;
+  display: flex;
+}
+.math-cores-description .div4 {
+  background-color: #ffff46;
+  display: flex;
+}
+.math-cores-description .div5 {
+  background-color: #ffff58;
+  display: flex;
+}
+/* Responsividade */
+@media screen and (max-width: 1600px) {
+  * {
+    margin: 2px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  html {
+    background-color: #efee;
+    display: contents;
+  }
+  img {
+    width: -webkit-fill-available;
+  }
+  /*
+    body{
+        display: contents;
+    }
+    div{
+        display: contents;
+    }
+    */
+  .title {
+    font-size: 60px;
+    color: blue;
+  }
+  .description {
+    border: 1px solid black;
+  }
+  .description h2 {
+    color: blue;
+    font-size: 40px;
+  }
+  .description b {
+    color: red;
+  }
+  .variaveis-description {
+    border: 1px solid black;
+  }
+  .variaveis-description h2 {
+    color: blue;
+    font-size: 40px;
+  }
+  .variaveis-description b {
+    color: red;
+  }
+  .hierarquia-description {
+    border: 1px solid black;
+  }
+  .hierarquia-description h2 {
+    color: #00ff55;
+    font-size: 40px;
+  }
+  .hierarquia-description b {
+    color: red;
+  }
+  .math-adicao-description {
+    border: 1px solid black;
+  }
+  .math-adicao-description h2 {
+    color: #dec129;
+    font-size: 45px;
+  }
+  .math-adicao-description b {
+    color: red;
+  }
+  .math-cores-description {
+    border: 1px solid black;
+  }
+  .math-cores-description h2 {
+    color: blue;
+    font-size: 40px;
+  }
+  .math-cores-description b {
+    color: red;
+  }
+  .math-cores-description .div1 {
+    background-color: #efe22378;
+    display: flex;
+  }
+  .math-cores-description .div2 {
+    background-color: #efe223;
+    display: flex;
+  }
+  .math-cores-description .div3 {
+    background-color: #ffff35;
+    display: flex;
+  }
+  .math-cores-description .div4 {
+    background-color: #ffff46;
+    display: flex;
+  }
+  .math-cores-description .div5 {
+    background-color: #ffff58;
+    display: flex;
+  }
+}
+@media screen and (max-width: 700px) {
+  * {
+    margin: 0px;
+    padding: 1px;
+  }
+}
+@media screen and (max-width: 600px) {
+  * {
+    margin: 2px;
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 300px) {
+  * {
+    margin: 2px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  html {
+    background-color: #efee;
+    display: contents;
+  }
+  img {
+    width: -webkit-fill-available;
+  }
+  /*
+    body{
+        display: contents;
+    }
+    div{
+        display: contents;
+    }
+    */
+  .title {
+    font-size: 25px;
+    color: blue;
+  }
+  .description {
+    border: 1px solid black;
+  }
+  .description h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  .description b {
+    color: red;
+  }
+  .variaveis-description {
+    border: 1px solid black;
+  }
+  .variaveis-description h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  .variaveis-description b {
+    color: red;
+  }
+  .hierarquia-description {
+    border: 1px solid black;
+  }
+  .hierarquia-description h2 {
+    color: #00ff55;
+    font-size: 20px;
+  }
+  .hierarquia-description b {
+    color: red;
+  }
+  .math-adicao-description {
+    border: 1px solid black;
+  }
+  .math-adicao-description h2 {
+    color: #dec129;
+    font-size: 25px;
+  }
+  .math-adicao-description b {
+    color: red;
+  }
+  .math-cores-description {
+    border: 1px solid black;
+  }
+  .math-cores-description h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  .math-cores-description b {
+    color: red;
+  }
+  .math-cores-description .div1 {
+    background-color: #efe22378;
+    display: flex;
+  }
+  .math-cores-description .div2 {
+    background-color: #efe223;
+    display: flex;
+  }
+  .math-cores-description .div3 {
+    background-color: #ffff35;
+    display: flex;
+  }
+  .math-cores-description .div4 {
+    background-color: #ffff46;
+    display: flex;
+  }
+  .math-cores-description .div5 {
+    background-color: #ffff58;
+    display: flex;
+  }
+}
+@media screen and (max-width: 200px) {
+  * {
+    margin: 2px;
+    padding: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  html {
+    background-color: #efee;
+    display: contents;
+  }
+  img {
+    width: -webkit-fill-available;
+  }
+  /*
+    body{
+        display: contents;
+    }
+    div{
+        display: contents;
+    }
+    */
+  .title {
+    font-size: 25px;
+    color: blue;
+  }
+  .description {
+    border: 1px solid black;
+  }
+  .description h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  .description b {
+    color: red;
+  }
+  .variaveis-description {
+    border: 1px solid black;
+  }
+  .variaveis-description h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  .variaveis-description b {
+    color: red;
+  }
+  .hierarquia-description {
+    border: 1px solid black;
+  }
+  .hierarquia-description h2 {
+    color: #00ff55;
+    font-size: 20px;
+  }
+  .hierarquia-description b {
+    color: red;
+  }
+  .math-adicao-description {
+    border: 1px solid black;
+  }
+  .math-adicao-description h2 {
+    color: #dec129;
+    font-size: 25px;
+  }
+  .math-adicao-description b {
+    color: red;
+  }
+  .math-cores-description {
+    border: 1px solid black;
+  }
+  .math-cores-description h2 {
+    color: blue;
+    font-size: 20px;
+  }
+  .math-cores-description b {
+    color: red;
+  }
+  .math-cores-description .div1 {
+    background-color: #efe22378;
+    display: flex;
+  }
+  .math-cores-description .div2 {
+    background-color: #efe223;
+    display: flex;
+  }
+  .math-cores-description .div3 {
+    background-color: #ffff35;
+    display: flex;
+  }
+  .math-cores-description .div4 {
+    background-color: #ffff46;
+    display: flex;
+  }
+  .math-cores-description .div5 {
+    background-color: #ffff58;
+    display: flex;
+  }
+}
